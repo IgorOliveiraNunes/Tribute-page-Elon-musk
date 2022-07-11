@@ -1,0 +1,126 @@
+*{
+    font-family: Arial;
+    background-color:rgb(44 46 56) ;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+        display:flex;
+        background-image: url('image/elon-2.webp');
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        height: 600px;
+        width: 1000px ;
+        color: #fff;
+        margin-top: 30px;
+        margin-left: 30px;
+       border-radius: 10%;
+}
+section h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 90px;
+    padding-left: 315px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#2271e7 ;
+}  
+section h2{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    padding-left: 150px;
+    margin-top: 0px;
+    color:#2271e7 ;
+}
+section a{
+    font-family: 'Yellowtail', cursive;
+    text-decoration: none;
+    color: #2271e7;
+    font-size: 45px;
+    margin-left: 30px;
+}
+section a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.prt{
+    display: flex;
+}
+.prt2{
+    flex: 1;
+}
+.right{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    color: #2271e7 ;
+}
+.page02{
+    display: flex;
+}
+.page02 a{
+    text-decoration: none;
+    color: rgb(25, 102, 92);
+    font-size: 25px;
+    margin-left: 30px;
+}
+.page02 a:hover{
+    color: rgb(99, 23, 170);
+    font-size: 30px;
+}
+.pr1{
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px ;
+    width: auto;
+}
+.pr2{
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px ;
+    width: auto;
+    margin-top: 75px;
+}
+.page02 .pr1_04{
+   margin-bottom: 30px ;
+   border: 5px solid  rgb(100, 92, 204);
+   font-size: 12px;
+   height: 150px;
+   padding-left: 25px;
+   color:#20e488 ;
+}
+@media(max-width:2100px){
+    .right{
+        font-size:30px;
+    }
+}
+@media(max-width:1700px){
+    #banner{
+        height:400px;
+        width: 800px ;
+      }
+    }
+@media(max-width:1550px){
+    .prt{
+        flex-direction: column;
+    }
+    #banner{
+            display: block;
+            margin: 0px auto;
+    }
+    .prt1{
+        margin: 0px;
+        text-align: center;
+    }
+    .prt1 h1,h2{
+        padding: 0px ;
+        text-align: center;
+    }
+    .page02{
+        flex-direction: column;
+    }
+}
