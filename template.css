@@ -93,18 +93,18 @@ section a:hover{
    padding-left: 25px;
    color:#20e488 ;
 }
-@media(max-width:2100px){
+@media(max-width:2170px){
     .right{
         font-size:30px;
     }
 }
-@media(max-width:1700px){
+@media(max-width:1300px){
     #banner{
         height:400px;
         width: 800px ;
       }
     }
-@media(max-width:1550px){
+@media(max-width:1980px){
     .prt{
         flex-direction: column;
     }
